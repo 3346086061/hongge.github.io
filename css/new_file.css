@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+     /*margin-left: 400px;/*左边距*/
+    /* margin-top:150px; /*上边距*/
+
+.P3{
+	color:#cecd04;
+	font-size:20px;
+	margin-left:750px;
+	margin-top:330px;
+}
+.Ph{
+	color:#dcd701;
+	font-size:80px;
+	margin-left:560px;
+	margin-top:30px;
+}
+.P4{
+	color:#ded101;
+	font-size:20px;
+	margin-left:750px;
+	margin-top:110px;
+}
+.xx{
+	width:200px;
+	height:50px;
+	background-color: #fd0053;
+	position:relative;
+	z-index:1;
+	margin-left:880px;
+	margin-top:-440px;
+}
+.pa{
+	font-size:20px;
+	color:#fffdfd;
+    text-align:center;    /*水平居中*/
+	line-height:50px;
+	/*垂直居中line-height: px;这里的line-height值和你给p标签的高度值是同一个值*/
+}
+.ai{
+	width:1920px ;
+	height:1000px;
+	overflow: hidden;	/*overflow:hidden的作用是隐藏溢出*/
+    background:url(../1.jpg)no-repeat;
+}
+.lianjie{
+	text-decoration:none;
+	color:#fff;
+}
+.lianjie:hover{
+	color:deepskyblue;
+}

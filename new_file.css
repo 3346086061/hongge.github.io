@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.ty {
+	width: 1920px;
+	height: 150px;
+	background-image: url(img/头部.jpg);
+	overflow: initial;
+}
+
+.ty .yop {
+	width:10px;
+	height: 10px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 200px;
+}
+.yop{
+	transition: all 0.5s;
+}
+.yop:hover {
+	transform: translateY(-10px);
+	color: #ff4200;
+}
+.ty .yop img{
+	animation:me 2s infinite linear;
+	
+}
+
+@keyframes me{
+	from{transform:rotateY(0deg);}
+	to{transform:rotateY(360deg);}
+}
+.yto {
+	width: 1920px;
+	height: 1200px;
+	background-image: url(img/ball.jpg);
+}
+.wt {
+	width: 1200px;
+	height: 26.36px;
+	/*background: #ff4200;*/
+	position: absolute;
+	top: 60px;
+	left: 1000px;
+}
+
+.wt .p1 {
+	margin-left:100px;
+	color: #FFFFFF;
+	transition: all 0.5s;
+	font-size: 20px;
+	}
+
+.wt .p1:hover {
+	transform: translateY(-10px);
+	color: #FF4200;
+}
+
+.yto {
+	width: 1920px;
+	height:900px;
+	background-image: url(img/ball.jpg);
+}
+.fk {
+	width: 200px;
+	height: 130px;
+	/*background: #ff0000;*/
+	position: absolute;
+	top:90px;
+	left: 400px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.fk p {
+	transition: all 0.5s;
+}
+.fk p:hover {
+	transform: translateY(-10px);
+	color: #ff4200;
+}
+.nk {
+	width: 200px;
+	height: 130px;
+	/*background: #ff0000;*/
+	position: absolute;
+	top: 40px;
+	left:340px;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.nk p {
+	transition: all 0.5s;
+}
+
+.nk p:hover {
+	transform: translateY(-10px);
+	color: #ff4200;
+}
+.top{
+	width: 300px;
+	height: 300px;
+	/*background: #FF4200;*/
+}
+.tp1{
+	margin-right: 170px;
+	float: right;
+}
+.tp2{
+	margin-right: 20px;
+	float: right;
+}
+.tp3{
+	margin-right: 20px;
+	float: right;
+}
+.tp4{
+	margin-right: 20px;
+	float: right;
+}
+.tp5{
+	margin-right: 20px;
+	float: right;
+}
+.top .xww{
+	width: 300px;
+	height: 600px;
+	background: #FFFFFF;
+	box-shadow:2px 2px 5px 2px #000;
+}
